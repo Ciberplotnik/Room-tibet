@@ -1,0 +1,25 @@
+.promo {
+  padding-top: 551px;
+  background-image: url("../images/background-promo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo-inner {
+  @include inner;
+}
+
+.promo_title {
+  font-weight: 700;
+  font-size: 66px;
+  color: $color-light;
+}
+
+.promo_form {
+  max-width: 1180px;
+  margin: 45px auto 0;
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
