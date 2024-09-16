@@ -1,8 +1,10 @@
 .promo {
   padding-top: 551px;
+  padding-bottom: 82px;
   background-image: url("../images/background-promo.png");
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .promo-inner {
@@ -18,8 +20,5 @@
 .promo_form {
   max-width: 1180px;
   margin: 45px auto 0;
-  background-color: rgba(255, 255, 255, .2);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
 }
 
