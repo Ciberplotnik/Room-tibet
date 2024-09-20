@@ -2,3 +2,16 @@
   max-width: $widht;
   margin: 0 auto;
 }
+
+@mixin subtitle () {
+  font-size: 24px;
+  line-height: 20px;
+  color: $color-yellow;
+}
+
+@mixin title () {
+  margin: 8px 0 40px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+}

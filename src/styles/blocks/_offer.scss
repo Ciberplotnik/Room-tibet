@@ -1,0 +1,27 @@
+.offer {
+  background-color: #f3f5f4;
+}
+
+.offer_inner {
+  @include inner;
+}
+
+.offer_row {
+  display: flex;
+}
+
+.offer_desc {
+
+}
+
+.offer_subtitle {
+  @include subtitle;
+}
+
+.offer_title {
+  @include title;
+}
+
+.offer_list {
+  list-style: none;
+}

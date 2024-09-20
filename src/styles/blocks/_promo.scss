@@ -4,7 +4,6 @@
   background-image: url("../images/background-promo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .promo-inner {
@@ -14,6 +13,7 @@
 .promo_title {
   font-weight: 700;
   font-size: 66px;
+  line-height: 73px;
   color: $color-light;
 }
 
